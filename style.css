@@ -49,6 +49,7 @@ html, body {
     height: 10px;
     width: 10px;
     border-radius: 50%;
+    z-index: 2;
 }
 
 
@@ -63,7 +64,7 @@ html, body {
 .hand i {
     position: absolute;
     background-color: var(--clr);
-    height: 70px;
+    height: var(--h);
     width: 5px;
     border-radius: 8px;
 }
